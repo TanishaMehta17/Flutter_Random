@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test/carousel_slider/carousel_slider.dart';
 import 'package:test/flutter_story_view/flutter_story_view.dart';
 
 void main() {
@@ -10,6 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: StoryPage());
+    return MaterialApp(home: CarouselDemo());
   }
 }
